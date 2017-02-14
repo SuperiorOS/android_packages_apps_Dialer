@@ -36,4 +36,9 @@
     <string name="call_via_dialog_title">Call via\u2026</string>
 
     <string name="call_log_stats_title">Statistics</string>
+
+    <!-- Smart Options -->
+    <string name="smart_category_title">Other options</string>
+    <string name="smart_mute_title">Smart mute</string>
+    <string name="smart_mute_summary">Mute the incoming call by flipping the device</string>
 </resources>
