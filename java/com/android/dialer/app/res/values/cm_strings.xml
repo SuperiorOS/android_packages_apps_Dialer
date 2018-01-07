@@ -48,4 +48,10 @@
 
     <string name="default_dialer_text">You must set Dialer as the default phone app to use it.</string>
     <string name="default_dialer_action">Set as default</string>
+
+    <!-- Disable Proximity Options -->
+    <string name="disable_proximity_sensor_title">Disable proximity sensor</string>
+    <string name="disable_proximity_sensor_summary">Do not turn off touchscreen and display in call based on proximity sensor</string>
+    <string name="sensor_settings_titile">Sensors</string>
+
 </resources>
