@@ -41,4 +41,15 @@
         android:defaultValue="0" />
   </PreferenceCategory>
 
+  <PreferenceCategory
+        android:key="@string/call_ui"
+        android:title="@string/call_ui">
+
+    <SwitchPreference
+        android:key="fullscreen_caller_photo"
+        android:title="@string/fullscreen_caller_photo_title"
+        android:summary="@string/fullscreen_caller_photo_summary"
+        android:defaultValue="false" />
+  </PreferenceCategory>
+
 </PreferenceScreen>
