@@ -100,11 +100,6 @@ public class DialerSettingsActivity extends AppCompatPreferenceActivity {
       target.add(displayOptionsHeader);
     }
 
-    Header soundSettingsHeader = new Header();
-    soundSettingsHeader.titleRes = R.string.sounds_and_vibration_title;
-    soundSettingsHeader.id = R.id.settings_header_sounds_and_vibration;
-    target.add(soundSettingsHeader);
-
     Header quickResponseSettingsHeader = new Header();
     Intent quickResponseSettingsIntent =
         new Intent(TelecomManager.ACTION_SHOW_RESPOND_VIA_SMS_SETTINGS);
@@ -176,8 +171,6 @@ public class DialerSettingsActivity extends AppCompatPreferenceActivity {
           new Intent("com.android.dialer.app.settings.SHOW_ASSISTED_DIALING_SETTINGS");
       target.add(assistedDialingSettingsHeader);
     }
-
-
 
     if (showAbout()) {
       Header aboutPhoneHeader = new Header();
@@ -290,7 +283,7 @@ public class DialerSettingsActivity extends AppCompatPreferenceActivity {
    */
   @Override
   public void onHeaderClick(Header header, int position) {
-    if (header.id == R.id.settings_header_sounds_and_vibration) {
+    /*if (header.id == R.id.settings_header_sounds_and_vibration) {
 
       if (!Settings.System.canWrite(this)) {
         Toast.makeText(
@@ -302,7 +295,7 @@ public class DialerSettingsActivity extends AppCompatPreferenceActivity {
 
       startActivity(new Intent(Settings.ACTION_SOUND_SETTINGS));
       return;
-    }
+    }*/
 
     super.onHeaderClick(header, position);
   }
