@@ -156,7 +156,7 @@ public class CallButtonPresenter
 //     final SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(mContext);
 //     boolean warningPresented = prefs.getBoolean(KEY_RECORDING_WARNING_PRESENTED, false);
 
-    if (!mIsRecording && isEnabled) {
+	if (!mIsRecording && isEnabled && call != null) {
                 mIsRecording = true;
                 new Handler().postDelayed(new Runnable() {
                     @Override
