@@ -17,6 +17,7 @@
 package com.android.dialer.app.settings;
 
 import android.content.Context;
+import android.app.NotificationManager;
 import android.media.RingtoneManager;
 import android.os.Build;
 import android.os.Bundle;
@@ -71,6 +72,8 @@ public class SoundSettingsFragment extends PreferenceFragment
   private SwitchPreference vibrateWhenRinging;
   private SwitchPreference playDtmfTone;
   private ListPreference dtmfToneLength;
+  
+  private NotificationManager notificationManager;
 
   @Override
   public Context getContext() {
