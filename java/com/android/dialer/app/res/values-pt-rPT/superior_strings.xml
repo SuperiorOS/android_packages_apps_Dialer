@@ -12,20 +12,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="other_settings_label">Outras definições</string>
     <!-- Dialer postcall -->
-    <string name="enable_post_call_title">Snack após chamada</string>
-    <string name="enable_post_call_summary">Ativar notificações pós-chamada no fundo do ecrã</string>
     <!-- Call Recording -->
-    <string name="call_recording_category_title">Gravação de chamada</string>
-    <string name="call_recording_format">Formato de áudio</string>
-    <string name="call_via">Chamar através de</string>
-    <string name="call_via_dialog_title">Chamar através de\u2026</string>
     <!-- Auto Call Recording -->
-    <string name="auto_call_recording_title">Gravação automática das chamadas</string>
     <!-- In Call DND -->
-    <string name="incall_enable_dnd_title">Ativar o modo Não Incomodar durante as chamadas</string>
-    <string name="incall_dnd_dialog_message">Para ativar o modo Não Incomodar, a aplicação do Telefone precisa da permissão para controlar o seu estado.\nPor favor, aceita-o.</string>
-    <string name="allow">Permitir</string>
-    <string name="deny">Recusar</string>
 </resources>
