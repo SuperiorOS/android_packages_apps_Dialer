@@ -12,8 +12,20 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="other_settings_label">Sonstige Einstellungen</string>
     <!-- Dialer postcall -->
+    <string name="enable_post_call_title">Benachrichtigung nach dem Anruf</string>
+    <string name="enable_post_call_summary">Benachrichtigungen am unteren Bildschirmrand aktivieren</string>
     <!-- Call Recording -->
+    <string name="call_recording_category_title">Anrufaufnahme</string>
+    <string name="call_recording_format">Audioformat</string>
+    <string name="call_via">Anruf über</string>
+    <string name="call_via_dialog_title">Anruf über\u2026</string>
     <!-- Auto Call Recording -->
+    <string name="auto_call_recording_title">Automatische Anrufaufnahme</string>
     <!-- In Call DND -->
+    <string name="incall_enable_dnd_title">\"Bitte nicht stören\" in Gespächen aktivieren</string>
+    <string name="incall_dnd_dialog_message">Um \"Bitte nicht stören\" aktivieren zu können, benötigt die Telefon-App die Berechtigung, den \"Bitte nicht stören\"-Modus zu steuern.\nBitte erlauben Sie dies.</string>
+    <string name="allow">Erlauben</string>
+    <string name="deny">Verweigern</string>
 </resources>
