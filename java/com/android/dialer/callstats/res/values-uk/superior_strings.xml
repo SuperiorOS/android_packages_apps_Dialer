@@ -16,5 +16,34 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="call_stats_detail_title">Відомості про статистику контакту</string>
+    <string name="call_stats_incoming">Вхідні: <xliff:g id="value">%s</xliff:g></string>
+    <string name="call_stats_outgoing">Вихідні: <xliff:g id="value">%s</xliff:g></string>
+    <string name="call_stats_missed">Пропущені: <xliff:g id="value">%s</xliff:g></string>
+    <string name="call_stats_blocked">Заблоковані: <xliff:g id="value">%s</xliff:g></string>
+    <string name="call_stats_percent"><xliff:g id="percent">%d</xliff:g>%%</string>
+    <string name="call_stats_header_total">Всього: <xliff:g id="call_count">%1$s</xliff:g>, <xliff:g id="duration">%2$s</xliff:g></string>
+    <string name="call_stats_header_total_callsonly">Загалом: <xliff:g id="call_count">%s</xliff:g></string>
+    <string name="call_stats_filter_from">Початкова дата</string>
+    <string name="call_stats_filter_to">Кінцева дата</string>
+    <string name="call_stats_filter_picker_title">Фільтр діапазону</string>
+    <string name="date_quick_selection">Швидкий вибір</string>
+    <string name="date_qs_currentmonth">Поточний місяць</string>
+    <string name="date_qs_currentquarter">Поточний квартал</string>
+    <string name="date_qs_currentyear">Поточний рік</string>
+    <string name="date_qs_lastweek">Минулий тиждень</string>
+    <string name="date_qs_lastmonth">Минулий місяць</string>
+    <string name="date_qs_lastquarter">Минулий квартал</string>
+    <string name="date_qs_lastyear">Минулий рік</string>
+    <string name="call_stats_date_filter">Встановити проміжок часу</string>
+    <string name="call_stats_reset_filter">Скинути фільтр</string>
+    <string name="call_stats_sort_by_duration">Сортувати за тривалістю виклику</string>
+    <string name="call_stats_sort_by_count">Сортувати за кількістю викликів</string>
+    <string name="call_stats_title_for_number">Цей номер</string>
+    <string name="call_stats_title_of_total">Від загального</string>
+    <string name="call_stats_title_durations">Тривалість викликів</string>
+    <string name="call_stats_title_count">Кількість викликів</string>
+    <string name="call_stats_title_average_duration">Середня тривалість виклику</string>
     <!-- Text displayed when there are no call log entries in the selected time range. -->
+    <string name="recent_calls_no_items_in_range">Журнал викликів не містить записів за вказаний період.</string>
 </resources>

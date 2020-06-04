@@ -16,5 +16,22 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="incall_category_title">مكالمة</string>
+    <string name="incall_enable_dnd_title">تفعيل عدم الإزعاج أثناء المكالمات</string>
+    <string name="incall_dnd_dialog_message">لتمكين عدم الإزعاج، يجب منح تطبيق الهاتف الإذن بالتحكم في حالة عدم الإزعاج.\n الرجاء السماح بذلك.</string>
+    <string name="allow">سماح</string>
+    <string name="deny">رفض</string>
+    <string name="call_recording_category_title">تسجيل المكالمة</string>
+    <string name="call_recording_format">تنسيق الصوت</string>
+    <string name="auto_call_recording_title">تسجيل تلقائي للمكالمات</string>
+    <string name="call_via">الاتصال عبر</string>
+    <string name="call_via_dialog_title">الاتصال عبر \u2026</string>
+    <string name="call_log_stats_title">الإحصائيات</string>
+    <string name="disable_proximity_sensor_title">تعطيل مستشعر التقارب</string>
+    <string name="disable_proximity_sensor_summary">لا تقم بإيقاف تشغيل الشاشة في المكالمة بناءً على مستشعر القرب</string>
+    <string name="sensor_settings_titile">المستشعرات</string>
+    <string name="other_settings_label">إعدادات أخرى</string>
     <!-- Dialer postcall -->
+    <string name="enable_post_call_title">إشعار ما بعد المكالمة</string>
+    <string name="enable_post_call_summary">تفعيل إشعارات بعد الإتصال في أسفل الشاشة</string>
 </resources>

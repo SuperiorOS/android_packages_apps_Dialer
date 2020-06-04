@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013-2014 The CyanogenMod Project
+     Copyright (C) 2018 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="incall_category_title">در حین تماس</string>
+    <string name="incall_enable_dnd_title">فعال کردن حالت مزاحم نشوید در طول تماس</string>
+    <string name="incall_dnd_dialog_message">به منظور فعال‌سازی \"مزاحم نشوید\"، برنامه تلفن باید دسترسی لازم برای کنترل وضعیت \"مزاحم نشوید\" را دریافت کند. \n لطفا اجازه آن را بدهید.</string>
+    <string name="allow">اجازه دادن</string>
+    <string name="deny">رد</string>
+    <string name="call_recording_category_title">ضبط تماس</string>
+    <string name="call_recording_format">فرمت صوتی</string>
+    <string name="auto_call_recording_title">ضبط خودکار تماس صوتی</string>
+    <string name="call_via">تماس از طریق</string>
+    <string name="call_via_dialog_title">تماس از طریق \u2026</string>
+    <string name="call_log_stats_title">آمار</string>
+    <string name="disable_proximity_sensor_title">اجازه ندادن به سنسور مجاورت</string>
+    <string name="disable_proximity_sensor_summary">صفحه نمایش را در حین استفاده از سنسور مجاورت حین تماس خاموش نمی کند</string>
+    <string name="sensor_settings_titile">سنسورها</string>
+    <string name="other_settings_label">تنظیمات دیگر</string>
+    <!-- Dialer postcall -->
+    <string name="enable_post_call_title">اسنک‌بار تماس پستی</string>
+    <string name="enable_post_call_summary">فعال کردن اعلامیه‌های تماس پستی در پایین صفحه نمایش</string>
+</resources>

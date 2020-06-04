@@ -16,5 +16,22 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="incall_category_title">In chiamata</string>
+    <string name="incall_enable_dnd_title">Attiva la modalità Non Disturbare durante le chiamate</string>
+    <string name="incall_dnd_dialog_message">Per attivare la modalità Non Disturbare, l\'app Telefono deve essere autorizzata a controllarne lo stato.\nConsenti l\'accesso per abilitare questa funzione.</string>
+    <string name="allow">Concedi</string>
+    <string name="deny">Rifiuta</string>
+    <string name="call_recording_category_title">Registrazione chiamata</string>
+    <string name="call_recording_format">Formato audio</string>
+    <string name="auto_call_recording_title">Registrazione automatica chiamate</string>
+    <string name="call_via">Chiama con</string>
+    <string name="call_via_dialog_title">Chiama con\u2026</string>
+    <string name="call_log_stats_title">Statistiche</string>
+    <string name="disable_proximity_sensor_title">Disabilita il sensore di prossimità</string>
+    <string name="disable_proximity_sensor_summary">Non spegnere lo schermo e visualizza la chiamata in base al sensore di prossimità</string>
+    <string name="sensor_settings_titile">Sensori</string>
+    <string name="other_settings_label">Altre impostazioni</string>
     <!-- Dialer postcall -->
+    <string name="enable_post_call_title">Barra post-chiamata</string>
+    <string name="enable_post_call_summary">Attiva le notifiche post chiamata nella parte inferiore dello schermo</string>
 </resources>

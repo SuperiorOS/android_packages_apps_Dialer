@@ -15,4 +15,12 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"></resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="call_log_show_all_accounts">所有帐号</string>
+    <string name="call_log_all_calls_header">所有通话</string>
+    <string name="call_log_incoming_header">仅呼入通话</string>
+    <string name="call_log_outgoing_header">仅拨出通话</string>
+    <string name="call_log_missed_header">仅未接通话</string>
+    <string name="call_log_voicemail_header">仅包含语音信箱的通话</string>
+    <string name="call_log_blacklist_header">仅被拦截的通话</string>
+</resources>

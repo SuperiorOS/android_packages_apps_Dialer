@@ -16,5 +16,34 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="call_stats_detail_title">Detalles de las estadísticas del contacto</string>
+    <string name="call_stats_incoming">Entrante: <xliff:g id="value">%s </xliff:g></string>
+    <string name="call_stats_outgoing">Salientes: <xliff:g id="value">%s</xliff:g></string>
+    <string name="call_stats_missed">Perdidas: <xliff:g id="value">%s</xliff:g></string>
+    <string name="call_stats_blocked">Bloqueadas: <xliff:g id="value">%s</xliff:g></string>
+    <string name="call_stats_percent"><xliff:g id="percent">%d</xliff:g>%%</string>
+    <string name="call_stats_header_total">Total: <xliff:g id="call_count">%1$s</xliff:g>, <xliff:g id="duration">%2$s</xliff:g></string>
+    <string name="call_stats_header_total_callsonly">Total: <xliff:g id="call_count">%s</xliff:g></string>
+    <string name="call_stats_filter_from">Fecha inicio</string>
+    <string name="call_stats_filter_to">Fecha final</string>
+    <string name="call_stats_filter_picker_title">Rango de filtro</string>
+    <string name="date_quick_selection">Selección rápida</string>
+    <string name="date_qs_currentmonth">Mes actual</string>
+    <string name="date_qs_currentquarter">Trimestre actual</string>
+    <string name="date_qs_currentyear">Año actual</string>
+    <string name="date_qs_lastweek">Semana pasada</string>
+    <string name="date_qs_lastmonth">El último mes</string>
+    <string name="date_qs_lastquarter">Último trimestre</string>
+    <string name="date_qs_lastyear">Ultimo año</string>
+    <string name="call_stats_date_filter">Ajustar rango de fechas</string>
+    <string name="call_stats_reset_filter">Restablecer rango de fechas</string>
+    <string name="call_stats_sort_by_duration">Ordenar por duración de llamada</string>
+    <string name="call_stats_sort_by_count">Ordenar por número de llamdas</string>
+    <string name="call_stats_title_for_number">Este número</string>
+    <string name="call_stats_title_of_total">Del total</string>
+    <string name="call_stats_title_durations">Duración de llamadas</string>
+    <string name="call_stats_title_count">Contador de llamadas</string>
+    <string name="call_stats_title_average_duration">Duración promedio de las llamadas</string>
     <!-- Text displayed when there are no call log entries in the selected time range. -->
+    <string name="recent_calls_no_items_in_range">Su registro no contiene ninguna llamada en el rango de fechas seleccionado.</string>
 </resources>

@@ -16,5 +16,22 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="incall_category_title">En llamada</string>
+    <string name="incall_enable_dnd_title">Habilitar modo no molestar durante las llamadas</string>
+    <string name="incall_dnd_dialog_message">Para habilitar el modo no molestar, la aplicación necesita permiso para controlar el estado no molestar.\nPor favor, concédalo.</string>
+    <string name="allow">Aceptar</string>
+    <string name="deny">Rechazar</string>
+    <string name="call_recording_category_title">Grabación de llamadas</string>
+    <string name="call_recording_format">Formato de Audio</string>
+    <string name="auto_call_recording_title">Grabación automática de llamadas</string>
+    <string name="call_via">Llamar a través de</string>
+    <string name="call_via_dialog_title">Llamar a través de\u2026</string>
+    <string name="call_log_stats_title">Estatísticas</string>
+    <string name="disable_proximity_sensor_title">Deshabilitar sensor de proximidad</string>
+    <string name="disable_proximity_sensor_summary">No desactivar el panel táctil y la pantalla en una llamada basándose en el sensor de proximidad</string>
+    <string name="sensor_settings_titile">Sensores</string>
+    <string name="other_settings_label">Otros ajustes</string>
     <!-- Dialer postcall -->
+    <string name="enable_post_call_title">Notificación tras llamada</string>
+    <string name="enable_post_call_summary">Activar notificaciones de llamar posteriormente en la parte inferior de la pantalla</string>
 </resources>

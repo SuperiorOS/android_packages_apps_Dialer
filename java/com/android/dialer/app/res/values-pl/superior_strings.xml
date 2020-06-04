@@ -16,5 +16,22 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="incall_category_title">W trakcie połączenia</string>
+    <string name="incall_enable_dnd_title">Włącz tryb Nie przeszkadzać podczas połączeń</string>
+    <string name="incall_dnd_dialog_message">Aby włączyć opcję Nie przeszkadzać, aplikacja \"Telefon\" musi mieć uprawnienia do kontrolowania jej statusu. \nProszę na to zezwolić.</string>
+    <string name="allow">Zezwól</string>
+    <string name="deny">Odmów</string>
+    <string name="call_recording_category_title">Nagrywanie połączenia</string>
+    <string name="call_recording_format">Format audio</string>
+    <string name="auto_call_recording_title">Automatyczne nagrywanie połączeń</string>
+    <string name="call_via">Zadzwoń przez</string>
+    <string name="call_via_dialog_title">Zadzwoń przez\u2026</string>
+    <string name="call_log_stats_title">Statystyki</string>
+    <string name="disable_proximity_sensor_title">Wyłącz czujnik zbliżeniowy</string>
+    <string name="disable_proximity_sensor_summary">Nie wyłączaj ekranu dotykowego i wyświetlacza w rozmowie w oparciu o czujnik zbliżeniowy</string>
+    <string name="sensor_settings_titile">Czujniki</string>
+    <string name="other_settings_label">Pozostałe ustawienia</string>
     <!-- Dialer postcall -->
+    <string name="enable_post_call_title">Dodaj pasek połączeń</string>
+    <string name="enable_post_call_summary">Włącz powiadomienia po zakończeniu połączenia na dole ekranu</string>
 </resources>

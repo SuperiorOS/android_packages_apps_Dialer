@@ -16,18 +16,23 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="incall_enable_dnd_title">Arama sırasında rahatsız etmeyini etkinleştir</string>
+    <string name="incall_category_title">Çağrı sırasında</string>
+    <string name="incall_enable_dnd_title">Çağrı sırasında \'Rahatsız Etmeyin\' modunu etkinleştir</string>
     <string name="incall_dnd_dialog_message">Rahatsız etmeyini etkinleştirmek için, telefon uygulamasının rahatsız etmeyin durumunu kontrol etme iznine sahip olması gerekir.\nLütfen buna izin verin.</string>
     <string name="allow">İzin ver</string>
     <string name="deny">Reddet</string>
-    <string name="call_recording_category_title">Arama kaydı</string>
+    <string name="call_recording_category_title">Çağrı kaydı</string>
     <string name="call_recording_format">Ses biçimi</string>
-    <string name="auto_call_recording_title">Otomatik arama kaydı</string>
-    <string name="call_via">İle ara</string>
-    <string name="call_via_dialog_title">\u2026 ile aranıyor</string>
+    <string name="auto_call_recording_title">Otomatik çağrı kaydı</string>
+    <string name="call_via">Şununla ara</string>
+    <string name="call_via_dialog_title">Şununla ara\u2026</string>
     <string name="call_log_stats_title">İstatistikler</string>
+    <string name="disable_proximity_sensor_title">Yakınlık sensörünü devre dışı bırak</string>
+    <string name="disable_proximity_sensor_summary">Yakınlık sensörüne bağlı olarak dokunmatik ekranı ve çağrı sırasında ekranı kapatmayın</string>
+    <string name="sensor_settings_titile">Sensörler</string>
     <string name="other_settings_label">Diğer ayarlar</string>
     <!-- Dialer postcall -->
-    <string name="enable_post_call_title">Arama sonrası bildirim</string>
-    <string name="enable_post_call_summary">Ekranın altında arama sonrası bildirimleri etkinleştir</string>
+    <string name="enable_post_call_title">18/5000
+Arama sonrası</string>
+    <string name="enable_post_call_summary">Ekranın altında arama sonrası bildirimlerini etkinleştir</string>
 </resources>
