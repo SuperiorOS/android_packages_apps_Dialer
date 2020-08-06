@@ -14,4 +14,13 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"></resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="call_recording_failed_message">Impossibile avviare la registrazione della chiamata</string>
+    <string name="call_recording_file_location">Registrazione chiamata salvata su <xliff:g id="filename">%s</xliff:g></string>
+    <string name="onscreenCallRecordText">Registra chiamata</string>
+    <string name="onscreenCallRecordingText">Registrazione chiamata - <xliff:g id="duration" example="00:10">%1$s</xliff:g></string>
+    <string name="onscreenStopCallRecordText">Interrompi la registrazione</string>
+    <string name="recording_time_text">Registrazione</string>
+    <string name="recording_warning_title">Attivare la registrazione della chiamata?</string>
+    <string name="recording_warning_text">Avviso: Tu sei responsabile della conformità con eventuali leggi, regolamenti e norme che si applicano all\'utilizzo della funzionalità di registrazione delle chiamate e all\'uso o alla distribuzione di tali registrazioni.</string>
+</resources>
