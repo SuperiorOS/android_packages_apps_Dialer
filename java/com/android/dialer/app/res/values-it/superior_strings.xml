@@ -15,4 +15,20 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"></resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="incall_category_title">In chiamata</string>
+    <string name="incall_enable_dnd_title">Attiva la modalità Non Disturbare durante le chiamate</string>
+    <string name="incall_vibrate_outgoing_title">Vibra alla risposta</string>
+    <string name="incall_vibrate_call_waiting_title">Vibra per chiamata in attesa</string>
+    <string name="incall_vibrate_hangup_title">Vibra al termine della chiamata</string>
+    <string name="incall_vibrate_45_title">Vibra ogni minuto</string>
+    <string name="incall_vibrate_45_summary">Vibra al 45esimo secondo di ogni minuto durante le chiamate in uscita</string>
+    <string name="incall_dnd_dialog_message">Per attivare la modalità Non Disturbare, l\'app Telefono deve essere autorizzata a controllarne lo stato.\nConsenti l\'accesso per abilitare questa funzione.</string>
+    <string name="allow">Concedi</string>
+    <string name="deny">Rifiuta</string>
+    <string name="call_recording_category_title">Registrazione chiamata</string>
+    <string name="call_recording_format">Formato audio</string>
+    <string name="call_via">Chiama con</string>
+    <string name="call_via_dialog_title">Chiama con\u2026</string>
+    <string name="call_log_stats_title">Statistiche</string>
+</resources>

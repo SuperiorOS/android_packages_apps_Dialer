@@ -15,4 +15,20 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"></resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="incall_category_title">Arama sırasında</string>
+    <string name="incall_enable_dnd_title">Arama sırasında rahatsız etmeyini etkinleştir</string>
+    <string name="incall_vibrate_outgoing_title">Cevapladığında titret</string>
+    <string name="incall_vibrate_call_waiting_title">Bekletildiğinde titret</string>
+    <string name="incall_vibrate_hangup_title">Kapatıldığında titret</string>
+    <string name="incall_vibrate_45_title">Her dakika titret</string>
+    <string name="incall_vibrate_45_summary">Giden aramaların her dakikasının 45. saniyesinde titret</string>
+    <string name="incall_dnd_dialog_message">Rahatsız etmeyini etkinleştirmek için, telefon uygulamasının rahatsız etmeyin durumunu kontrol etme iznine sahip olması gerekir.\nLütfen buna izin verin.</string>
+    <string name="allow">İzin ver</string>
+    <string name="deny">Reddet</string>
+    <string name="call_recording_category_title">Arama kaydı</string>
+    <string name="call_recording_format">Ses biçimi</string>
+    <string name="call_via">Şununla ara</string>
+    <string name="call_via_dialog_title">\u2026 ile aranıyor</string>
+    <string name="call_log_stats_title">İstatistikler</string>
+</resources>
