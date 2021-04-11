@@ -29,6 +29,16 @@
     <string name="call_recording_category_title">通話の録音</string>
     <string name="call_recording_format">音声フォーマット</string>
     <string name="call_via">発信方法</string>
-    <string name="call_via_dialog_title">\u2026 経由で発信</string>
+    <string name="call_via_dialog_title">発信方法\u2026</string>
     <string name="call_log_stats_title">統計</string>
+    <string name="other_settings_label">その他の設定</string>
+    <!-- Dialer postcall -->
+    <string name="enable_post_call_title">通話のスナックバーを表示</string>
+    <string name="enable_post_call_summary">画面の下部に通話の通知を表示する</string>
+    <!-- Auto Call Recording -->
+    <string name="auto_call_recording_title">自動通話録音</string>
+    <!-- Smart Options -->
+    <string name="smart_category_title">ジェスチャー</string>
+    <string name="smart_mute_title">スマートミュート</string>
+    <string name="smart_mute_summary">端末を裏返しにして着信をミュートする</string>
 </resources>

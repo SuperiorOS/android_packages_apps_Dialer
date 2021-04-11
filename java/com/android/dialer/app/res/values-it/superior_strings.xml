@@ -31,4 +31,14 @@
     <string name="call_via">Chiama con</string>
     <string name="call_via_dialog_title">Chiama con\u2026</string>
     <string name="call_log_stats_title">Statistiche</string>
+    <string name="other_settings_label">Altre impostazioni</string>
+    <!-- Dialer postcall -->
+    <string name="enable_post_call_title">Barra post-chiamata</string>
+    <string name="enable_post_call_summary">Abilita le notifiche post chiamata nella parte inferiore dello schermo</string>
+    <!-- Auto Call Recording -->
+    <string name="auto_call_recording_title">Registrazione automatica delle chiamate</string>
+    <!-- Smart Options -->
+    <string name="smart_category_title">Gesti</string>
+    <string name="smart_mute_title">Disattivazione intelligente</string>
+    <string name="smart_mute_summary">Disattiva l\'audio della chiamata in arrivo capovolgendo il dispositivo</string>
 </resources>

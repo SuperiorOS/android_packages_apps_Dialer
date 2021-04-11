@@ -31,4 +31,7 @@
     <string name="call_via">Llamar a través de</string>
     <string name="call_via_dialog_title">Llamar a través de\u2026</string>
     <string name="call_log_stats_title">Estatísticas</string>
+    <!-- Dialer postcall -->
+    <!-- Auto Call Recording -->
+    <!-- Smart Options -->
 </resources>

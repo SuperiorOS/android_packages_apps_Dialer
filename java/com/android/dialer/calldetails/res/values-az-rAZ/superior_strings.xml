@@ -14,12 +14,4 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <plurals name="play_recordings">
-        <item quantity="one">Воспроизвести запись</item>
-        <item quantity="few">Воспроизвести записи</item>
-        <item quantity="many">Воспроизвести записи</item>
-        <item quantity="other">Воспроизвести записи</item>
-    </plurals>
-    <string name="call_playback_no_app_found_toast">Нет приложений для воспроизведения выбранной записи.</string>
-</resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"></resources>
