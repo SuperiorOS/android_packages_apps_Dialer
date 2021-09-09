@@ -14,4 +14,13 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"></resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="call_recording_failed_message">Zəng səsyazması başladılmadı</string>
+    <string name="call_recording_file_location">Zəng səsyazmasının saxlanıldığı yer: <xliff:g id="filename">%s</xliff:g></string>
+    <string name="onscreenCallRecordText">Zəngin səsini yaz</string>
+    <string name="onscreenCallRecordingText">Zəngin səsi yazılır - <xliff:g id="duration" example="00:10">%1$s</xliff:g></string>
+    <string name="onscreenStopCallRecordText">Səsyazmanı dayandır</string>
+    <string name="recording_time_text">Səs yazılır</string>
+    <string name="recording_warning_title">Zəng səsyazması fəallaşdırılsın?</string>
+    <string name="recording_warning_text">Diqqət: Zəng səsyazma funksiyasını istifadə edərkən və bu səsyazmaları paylaşarkən əlaqədar qanun, nizamnamə və qaydalara uyğun olaraq məsuliyyət daşıyırsınız.</string>
+</resources>
