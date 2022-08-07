@@ -44,6 +44,7 @@
     <item name="actionModeStyle">@style/MainActionModeStyle</item>
     <item name="actionBarTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
     <item name="dialpad_style">@style/Dialpad.Themed</item>
+    <item name="android:windowLightStatusBar">@bool/light_navigation_bar</item>
   </style>
 
   <!-- Colors our actionbar in action mode to dialer theme color. -->
