@@ -18,11 +18,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="incall_category_title">ಸಕ್ರಿಯ-ಕರೆ</string>
     <string name="incall_enable_dnd_title">ಕರೆಯಲ್ಲಿ ನಿರಾಡಚಣೆ ಸಶಕ್ತಿಸು</string>
-    <string name="incall_vibrate_outgoing_title">ಕರೆ ಉತ್ತರಿಸಿದಾಗ ಕಂಪಿಸು</string>
-    <string name="incall_vibrate_call_waiting_title">ಕರೆ ನಿರೀಕ್ಷೆಯಲ್ಲಿ ಕಂಪಿಸು</string>
-    <string name="incall_vibrate_hangup_title">ಕರೆ ಸ್ಥಗಿತವಾದಾಗ ಕಂಪಿಸು</string>
-    <string name="incall_vibrate_45_title">ಪ್ರತಿ ನಿಮಿಷ ಕಂಪಿಸು</string>
-    <string name="incall_vibrate_45_summary">ನಿರ್ಗಮಿಸುವ ಕರೆಗಳಲ್ಲಿ ಪ್ರತಿ ನಿಮಿಷದ ೪೫ನೇ ಕ್ಷಣಕೊಮ್ಮೆ ಕಂಪಿಸುವುದು</string>
     <string name="incall_dnd_dialog_message">\'ನಿರಾಡಚಣೆ\' ಸಶಕ್ತಿಸಲು, ಫೋನ್ ಆಪ್ಗೆ \'ನಿರಾಡಚಣೆ\' ಸ್ಥಿತಿ ನಿಯಂತ್ರಿಸುವ ಅನುಮತಿ ಬೇಕು.\n ಅನುಮತಿಸಿ.</string>
     <string name="allow">ಅನುಮತಿಸು</string>
     <string name="deny">ನಿರಾಕರಿಸು</string>

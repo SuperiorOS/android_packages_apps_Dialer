@@ -18,11 +18,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="incall_category_title">Hívás közben</string>
     <string name="incall_enable_dnd_title">Ne zavarjanak mód (DND) hívás közbeni engedélyezése</string>
-    <string name="incall_vibrate_outgoing_title">Hívásfogadáskor rezeg</string>
-    <string name="incall_vibrate_call_waiting_title">Hívásvárakoztatáskor rezeg</string>
-    <string name="incall_vibrate_hangup_title">Bontáskor rezeg</string>
-    <string name="incall_vibrate_45_title">Percenként rezeg</string>
-    <string name="incall_vibrate_45_summary">Minden 45. másodpercben rezeg a kimenő hívások során</string>
     <string name="incall_dnd_dialog_message">A Ne zavarjanak engedélyezéséhez a Telefon-alkalmazásnak rendelkeznie kell a DND státuszvezérlés jogaival.\nKérjük, engedélyezze azt!</string>
     <string name="allow">Engedélyezés</string>
     <string name="deny">Elutasítás</string>
