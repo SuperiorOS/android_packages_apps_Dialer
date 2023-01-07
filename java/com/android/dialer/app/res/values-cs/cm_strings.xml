@@ -18,9 +18,9 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="incall_category_title">Během hovoru</string>
     <string name="incall_enable_dnd_title">Povolit režim Nerušit během hovoru</string>
-    <string name="incall_dnd_dialog_message">Chcete-li povolit režim Nerušit, musí být telefonní aplikaci udělena oprávnění k ovládání stavu režimu Nerušit.\nProsím povolte jej.</string>
+    <string name="incall_dnd_dialog_message">Chcete-li povolit režim Nerušit, musí být telefonní aplikaci udělena oprávnění k ovládání stavu režimu Nerušit.\nPovolte to.</string>
     <string name="allow">Povolit</string>
-    <string name="deny">Odepřít</string>
+    <string name="deny">Zamítnout</string>
     <string name="call_recording_category_title">Nahrávání hovorů</string>
     <string name="call_recording_format">Formát zvuku</string>
     <string name="auto_call_recording_title">Automatické nahrávání hovorů</string>
