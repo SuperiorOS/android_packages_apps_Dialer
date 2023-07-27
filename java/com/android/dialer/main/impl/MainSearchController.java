@@ -558,14 +558,6 @@ public class MainSearchController implements SearchBarListener {
     }
   }
 
-  public void addOnSearchShowListener(OnSearchShowListener listener) {
-    onSearchShowListenerList.add(listener);
-  }
-
-  public void removeOnSearchShowListener(OnSearchShowListener listener) {
-    onSearchShowListenerList.remove(listener);
-  }
-
   private void notifyListenersOnSearchOpen() {
     for (OnSearchShowListener listener : onSearchShowListenerList) {
       listener.onSearchOpen();
