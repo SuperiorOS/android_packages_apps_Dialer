@@ -28,8 +28,6 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import com.android.dialer.common.Assert;
 import com.android.dialer.common.LogUtil;
-import com.android.dialer.configprovider.ConfigProvider;
-import com.android.dialer.configprovider.ConfigProviderComponent;
 import com.android.dialer.enrichedcall.EnrichedCallCapabilities;
 import com.android.dialer.enrichedcall.EnrichedCallComponent;
 import com.android.dialer.enrichedcall.EnrichedCallManager;
@@ -95,11 +93,7 @@ public class PostCall {
           activity.startActivity(PostCallActivity.newIntent(activity, number, isRcsPostCall));
         };
 
-    int durationMs =
-        (int)
-            ConfigProviderComponent.get(activity)
-                .getConfigProvider()
-                .getLong("post_call_prompt_duration_ms", 8_000);
+    int durationMs = 8_000;
     activeSnackbar =
         Snackbar.make(rootView, message, durationMs)
             .setAction(actionText, onClickListener)
@@ -218,13 +212,11 @@ public class PostCall {
 
     boolean callDisconnectedByUser = manager.getBoolean(KEY_POST_CALL_DISCONNECT_PRESSED, false);
 
-    ConfigProvider binding = ConfigProviderComponent.get(context).getConfigProvider();
     return disconnectTimeMillis != -1
         && connectTimeMillis != -1
         && isSimReady(context)
-        && binding.getLong("postcall_last_call_threshold", 30_000) > timeSinceDisconnect
-        && (connectTimeMillis == 0
-            || binding.getLong("postcall_call_duration_threshold", 35_000) > callDurationMillis)
+        && 30_000 > timeSinceDisconnect
+        && (connectTimeMillis == 0 || 35_000 > callDurationMillis)
         && getPhoneNumber(context) != null
         && callDisconnectedByUser;
   }
@@ -243,9 +235,7 @@ public class PostCall {
   }
 
   private static boolean isEnabled(Context context) {
-    return ConfigProviderComponent.get(context)
-        .getConfigProvider()
-        .getBoolean("enable_post_call_prod", true);
+    return true;
   }
 
   private static boolean isSimReady(Context context) {
