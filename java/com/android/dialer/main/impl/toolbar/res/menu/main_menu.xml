@@ -30,7 +30,7 @@
 
   <item
       android:id="@+id/settings"
-      android:title="@string/settings"
+      android:title="@string/dialer_settings_label"
       app:showAsAction="collapseActionView"/>
 
   <item
